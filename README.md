@@ -40,11 +40,7 @@ Poetry for dependency management
 Git for version control
 Setup
 
-Clone the repository and install dependencies:
-# Clone the repository
-git clone https://github.com/yourusername/research-paper-fetcher.git
-cd research-paper-fetcher
-
+Clone the repository and install dependencies
 # Install dependencies
 poetry install
 Usage
