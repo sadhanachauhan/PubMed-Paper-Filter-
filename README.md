@@ -68,7 +68,23 @@ research-paper-fetcher/
 Development
 
 Running Tests
+Setup
+Clone the repository and install dependencies:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/pubmed-paper-filter.git
+cd pubmed-paper-filter
+poetry install
 
 To run unit tests:
 poetry running pytest
+Usage
+Run the tool from the command line:
+
+bash
+Copy
+Edit
+poetry run get-papers-list --query "cancer AND 2023" --output output.csv
 
