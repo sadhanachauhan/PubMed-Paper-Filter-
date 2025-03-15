@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "my_project", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+requests = ">=2.32.3,<3.0.0"
+numpy = ">=2.2.3,<3.0.0"
+click = ">=8.1.8,<9.0.0"
+pandas = "^2.2.3"
+
+[tool.poetry.scripts]
+   get-papers-list = "get_papers_list.get_papers:main"
+   
